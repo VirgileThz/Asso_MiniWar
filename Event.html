@@ -11,20 +11,32 @@
 </head>
 
 <body>
-    <header>
-        <h1>MiniWar</h1>
-    </header>
-    <nav>
-        <a href="./Home.html">Accueil</a>
-        <a href="./Event.html">Evénénements</a>
-        <a href="./Pictures.html">Photos</a>
-        <a href="./Contact.html">Contact</a>
-    </nav>
-    <main>
+    <div class="container">
+        <header class="py-2">
+            <div class="col justify-content-center align-items-center">
+                <h1 class="text-center text-danger">MiniWar</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="./Home.html">MiniWar</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Event.html">Evénements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pictures.html">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <div class=content>
             <section>
                 <h2>Tournois à venir</h2>
-                <table>
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -34,6 +46,36 @@
                             <th>Equipe MiniWar</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>19 et 20 Juin</td>
+                            <td>Wh40k: Le tournoi des débutants</td>
+                            <td>Jeux de la Comté, 26 Rue Battant 25000 Besançon</td>
+                            <td>18/32</td>
+                            <td>Non</td>
+                        </tr>
+                        <tr>
+                            <td>26 et 27 Juin</td>
+                            <td>AoS: Premier tournoi de la 3ème édition</td>
+                            <td>Boutique Warhammer, 10 Rue Joseph Serlin 69001 Lyon</td>
+                            <td>16/16</td>
+                            <td>Non</td>
+                        </tr>
+                        <tr>
+                            <td>30 Juin</td>
+                            <td>Wh40k Journée d'exposition 5000 points</td>
+                            <td>Games Workshop, 5 Rue des Frères 67000 Strasbourg</td>
+                            <td>7/20</td>
+                            <td>Oui</td>
+                        </tr>
+                        <tr>
+                            <td>2, 3 et 4 Juillet</td>
+                            <td>Wh40k Qualification Championnats de France</td>
+                            <td>Boutique Warhammer, 10 Rue Joseph Serlin 69001 Lyon</td>
+                            <td>47/64</td>
+                            <td>Oui</td>
+                        </tr>
+                    </tbody>
                 </table>
             </section>
             <aside>
@@ -52,11 +94,14 @@
             </aside>
         </div>
     </main>
-    <footer>
+    <footer class="bg-dark">
+        <div class="row justify-content-between align-items-center">
         <a href="#">Mentions légales</a>
         <a href="#">Plan du site</a>
         <a href="./Contact.html">Contact</a>
+    </div>
     </footer>
+</div>
 </body>
 
 </html>
