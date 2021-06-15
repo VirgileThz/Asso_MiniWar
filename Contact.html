@@ -11,35 +11,49 @@
 </head>
 
 <body>
-    <header>
-        <h1>MiniWar</h1>
-    </header>
-    <nav>
-        <a href="./Home.html">Accueil</a>
-        <a href="./Event.html">Evénénements</a>
-        <a href="./Pictures.html">Photos</a>
-        <a href="./Contact.html">Contact</a>
-    </nav>
-    <main>
+    <div class="container">
+        <header class="py-2">
+            <div class="col justify-content-center align-items-center">
+                <h1 class="text-center text-danger">MiniWar</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="./Home.html">MiniWar</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Event.html">Evénements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pictures.html">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     <div class="form-group">
       <label for="Nom">Votre nom</label>
-      <input type="text" class="" id="Nom"></input>
+      <input type="text" class="form-control" id="Nom"></input>
       <label for="Prénom">Votre prénom</label>
-      <input type="text" class="" id="Prénom"></input>
+      <input type="text" class="form-control" id="Prénom"></input>
       <label for="Mail">Votre adresse mail</label>
-      <input type="email" class="" id="Mail"></input>
+      <input type="email" class="form-control" id="Mail"></input>
       <label for="Sujet">Objet de votre message</label>
-      <input type="text" class="" id="Sujet"></input>
+      <input type="text" class="form-control" id="Sujet"></input>
       <label for="Expéditeur">Votre message</label>
-      <textarea  class="" id="Expéditeur"></textarea>
+      <textarea  class="form-control" id="Expéditeur"></textarea>
 
     </div>    
-    </main>
-    <footer>
+    <footer class="bg-dark">
+        <div class="row justify-content-between align-items-center">
         <a href="#">Mentions légales</a>
         <a href="#">Plan du site</a>
         <a href="./Contact.html">Contact</a>
+    </div>
     </footer>
+    </div>
 </body>
 
 </html>
