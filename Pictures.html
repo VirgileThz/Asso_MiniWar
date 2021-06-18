@@ -11,29 +11,74 @@
 </head>
 
 <body>
-    <header>
-        <h1>MiniWar</h1>
-    </header>
-    <nav>
-        <a href="./Home.html">Accueil</a>
-        <a href="./Event.html">Evénénements</a>
-        <a href="./Pictures.html">Photos</a>
-        <a href="./Contact.html">Contact</a>
-    </nav>
-    <main>
-    <div class=content>
-        <section>
-        </section>
-        <aside>
+    <div class="container">
+        <header class="py-2">
+            <div class="col justify-content-center align-items-center">
+                <h1 class="text-center text-danger">MiniWar</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="./Home.html">MiniWar</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Event.html">Evénements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pictures.html">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-        </aside>
-    </div>    
-    </main>
-    <footer>
-        <a href="#">Mentions légales</a>
-        <a href="#">Plan du site</a>
-        <a href="./Contact.html">Contact</a>
-    </footer>
+        <div class="content">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="./Images/Warhammer-40K-painted-Dark-Angels-Primaris-Chaplain-NMM.jpg"
+                            alt="DA Primaris Chaplain" class="card-img-top rounded-lg">
+                        <div class="card-body">
+                            <h5 class="card-title">Chapelain Primaris Dark Angels by Koof Workshop</h5>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="./Images/warhammer+age+of+sigmar+gargants+sons+of+behamat+megargants+miniature+painting+service+(4).JPG"
+                            alt="Megargants SoB" class="card-img-top rounded-lg">
+                        <div class="card-body">
+                            <h5 class="card-title">Megargants Sons of Behemoth</h5>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="./Images/il_570xN.2450283405_fgd9.jpg" alt="Desertrooper with mount"
+                            class="card-img-top rounded-lg">
+                        <div class="card-body">
+                            <h5 class="card-title">Desertrooper</h5>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dark">
+            <div class="row justify-content-between align-items-center">
+            <a href="#">Mentions légales</a>
+            <a href="#">Plan du site</a>
+            <a href="./Contact.html">Contact</a>
+        </div>
+        </footer>
+    </div>
 </body>
 
 </html>
