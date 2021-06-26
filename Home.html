@@ -11,35 +11,61 @@
 </head>
 
 <body>
-    <header>
-        <h1>MiniWar</h1>
-    </header>
-    <nav>
-        <a href="./Home.html">Accueil</a>
-        <a href="./Event.html">Evénénements</a>
-        <a href="./Pictures.html">Photos</a>
-        <a href="./Contact.html">Contact</a>
-    </nav>
-    <main>
-    <div class=content>
-        <section>
-        <div>
-            <p>Bienvenue sur le site de MiniWar, votre association de fans de figurines, de peintures et de batailles!</p>
-            <h2>Présentation de l'association</h2>
-            <p>L'association MiniWar a été créée en 2021, suite à la fin du confinement, dans le but d'offrir un cadre de tournoi pour les joueurs de jeux de batailles comme les univers Games Workshop, Star Wars et Games of Thrones.</p>
-            <p>Depuis, des initiations peintures ont été mises en place ainsi que des journées de découvertes pour les curieux.</p>
+    <div class="container">
+        <header class="py-2">
+            <div class="col justify-content-center align-items-center">
+                <h1 class="text-center text-danger">MiniWar</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">MiniWar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarExpand"
+                    aria-controls="navbarExpand" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExpand">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Home.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Event.html">Evénements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pictures.html">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <article>
+                <div>
+                    <p>Bienvenue sur le site de MiniWar, votre association de fans de figurines, de peintures et de
+                        batailles!</p>
+                    <h2>Présentation de l'association</h2>
+                    <p>L'association MiniWar a été créée en 2021, suite à la fin du confinement, dans le but d'offrir un
+                        cadre de tournoi pour les joueurs de jeux de batailles comme les univers Games Workshop, Star
+                        Wars et Games of Thrones.</p>
+                    <p>Depuis, des initiations peintures ont été mises en place ainsi que des journées de découvertes
+                        pour les curieux.</p>
+                </div>
+            </article>
         </div>
-        </section>
-        <aside>
-
-        </aside>
-    </div>    
-    </main>
-    <footer>
-        <a href="#">Mentions légales</a>
-        <a href="#">Plan du site</a>
-        <a href="./Contact.html">Contact</a>
-    </footer>
+        </main>
+        <footer class="bg-dark">
+            <div class="flex-row justify-content-between">
+                <a href="#">Mentions légales</a>
+                <a href="#">Plan du site</a>
+                <a href="./Contact.html">Contact</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
